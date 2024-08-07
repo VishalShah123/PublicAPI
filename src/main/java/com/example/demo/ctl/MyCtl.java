@@ -15,8 +15,8 @@ public class MyCtl {
 		return "hello from public APi";
 	}
 	@GetMapping("/test")
-	public  String hello() {
-		return "hello from public APi";
+	public  String test() {
+		return "test-api from public APi";
 	}
 	
 	@GetMapping("/user")
