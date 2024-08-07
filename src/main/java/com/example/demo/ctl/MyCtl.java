@@ -14,6 +14,10 @@ public class MyCtl {
 	public  String hello() {
 		return "hello from public APi";
 	}
+	@GetMapping("/test")
+	public  String hello() {
+		return "hello from public APi";
+	}
 	
 	@GetMapping("/user")
 	public ArrayList publicUser() {
